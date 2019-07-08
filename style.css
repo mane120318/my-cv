@@ -1,0 +1,128 @@
+.body   {
+    background-color: rgb(136, 247, 109);
+}
+
+.my-name {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.link-item  {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.link-item1 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.address   {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.EDUCATION  {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.School {
+    margin-left: 5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.a1 {    
+    margin-left: 5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.a2 {
+    margin-top:5%;
+    margin-left: 5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.a3 {
+    margin-left: 5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.a4 {
+    margin-left: 5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.skillsBox  {
+    position: relative;
+    width: 600px;
+    padding: 50px;
+    margin: 100px;
+}
+
+.skillsBox h1   {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.skills {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.progress   {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.progress .percent  {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    padding-right: 10px;
+    border-right: 2px solid rgb(255, 255, 255);
+    animation: animate .5s linear infinite;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 255) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 255) 50%, rgba(255, 255, 255, 255) 75%, transparent 75%, transparent);
+    background-size: 30px 30px;
+}
+
+@keyframes animate  {
+    0%  {
+        background-position: 0 0;
+    }
+    100%    {
+        background-position: 30px 0;
+    }
+}
